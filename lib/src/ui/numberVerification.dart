@@ -46,7 +46,10 @@ class _NumberValidationScreenState extends State<NumberValidationScreen> {
               ),
             ),
              SizedBox(height: 50.sp,),
-            CustomButton(text: 'Continue', ontap: (){}),
+            CustomButton(text: 'Continue',
+             ontap: (){
+             
+            }),
           ],
         ),
       ),
