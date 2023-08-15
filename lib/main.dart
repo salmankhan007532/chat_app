@@ -1,5 +1,6 @@
 import 'package:chat_app/src/ui/contact_screen.dart';
 import 'package:chat_app/src/ui/numberVerification.dart';
+import 'package:chat_app/src/ui/other/home_screen.dart';
 import 'package:chat_app/src/ui/personal_chat_screen.dart';
 import 'package:chat_app/src/ui/walkthrough.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:  ChatScreen(),
+      home:  HomeScreen2(),
     );
       });
   }
