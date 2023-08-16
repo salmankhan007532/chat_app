@@ -1,17 +1,16 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
-class HomeScreen2 extends StatefulWidget {
-  const HomeScreen2({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  State<HomeScreen2> createState() => _HomeScreen2State();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreen2State extends State<HomeScreen2> {
+class _HomeScreenState extends State<HomeScreen> {
   var isloading =false;
   final TextEditingController _search = TextEditingController();
 
